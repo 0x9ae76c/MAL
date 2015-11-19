@@ -1,16 +1,16 @@
 /*      Color Table      */
-/* Primary      :#009688;*/
-/* DarkPrimary  :#00796B;*/
-/* LightPrimary :#B2DFDB;*/
-/* Accent       :#03A9F4;*/
+/* Primary      :#03A9F4;*/
+/* DarkPrimary  :#0288D1;*/
+/* LightPrimary :#B3E5FC;*/
+/* Accent       :#448AFF;*/
 
 /*      Primary Color Targets      */
 :root,
 #mal_control_strip,
-[class^="header"] + table { background-color: #009688 !important }
+[class^="header"] + table { background-color: #03A9F4 !important }
 a,
 .header_title
-{ color: #009688 }
+{ color: #03A9F4 }
 
 /*           LightPrimary          */
 .hide+table:hover,
@@ -18,7 +18,7 @@ table+table+table:hover,
 #mal_cs_listinfo a:hover,
 #mal_cs_links a:hover,
 #mal_cs_otherlinks a:hover
-{ background-color: #B2DFD8 }
+{ background-color: #B3E5FC }
 
 /*              Text               */
 :root,
