@@ -7,7 +7,7 @@
 /*      Primary Color Targets      */
 :root,
 #mal_control_strip,
-[class^="header"] + table { background-color: #673AB7 !important }
+[class^="header"] + table { background-color: #673AB7 }
 a,
 .header_title
 { color: #673AB7 }

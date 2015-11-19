@@ -7,7 +7,7 @@
 /*      Primary Color Targets      */
 :root,
 #mal_control_strip,
-[class^="header"] + table { background-color: #E91E63 !important }
+[class^="header"] + table { background-color: #E91E63 }
 a,
 .header_title
 { color: #E91E63 }
