@@ -20,13 +20,13 @@
 }
 table+table { padding: 12px 12px 12px 24px }
 body {
-    oveflow: auto;
+    overflow: auto;
     width: 100%;
     height: 100%;
     padding-right: 17px;
 }
 :root {
-    overflow:hidden;
+    overflow: hidden;
     line-height: 1.429;
     font-weight: 400;
     font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
