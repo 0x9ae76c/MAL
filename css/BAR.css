@@ -1,5 +1,4 @@
-*{}
-#mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
+#mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks{
     transition: ease-in-out 150ms;
     box-sizing: border-box;
     background: none no-repeat scroll 100% 0 transparent;
@@ -8,19 +7,19 @@
     overflow: hidden;
     padding: 0 !important;
     position: fixed;
-    text-align: center;
+    text-align: left;
     z-index: 10;
     width:   150px !important;
     left: -100px;
     visibility: hidden;
 }
 
-#mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
+#mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover{
     width:150px !important;
     padding-top: 0px !important;
 }
 
-#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div{
     font-size: 0 !important;
     line-height: 0;
     margin: 0 !important;
@@ -28,23 +27,19 @@
     padding: 0 !important;
 }
 
-#mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
+#mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2){
     padding: 0 !important;
 }
 
-#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
+#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a{
     display: block;
     font: 13px/17px 'Arial', sans-serif !important;
-    padding: 3px 0 !important;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
-#mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
+#mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1){
     margin-top: 0;
-}
-
-#mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
-    background-color: #E3F2FD !important;
 }
 
 #mal_cs_listinfo strong a strong {
@@ -69,97 +64,26 @@
     text-shadow: 0 1px 1px #FFFFFF;
 }
 
-#mal_cs_powered a {
-    background-color: rgba(251,251,251,0.5) !important;
-    display: block !important;
-    margin: 0 !important;
-    opacity: 0;
-    padding: 8px 0 0 !important;
-}
-
-#mal_cs_powered:hover a {
-    opacity: 1;
-}
-
-#mal_cs_powered a img {
-    transition: all 0.25s ease-in-out 0s;
-    background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(51,51,51,0.8);
-    display: block;
-    height: 0;
-    margin: 0 12px;
-    padding: 23px 0 0 126px;
-    width: 0;
-}
-
-#mal_cs_powered a img:hover {
-    background-color: rgba(176,2,104,0.8);
-}
-
-#mal_cs_powered #search {
-    padding: 8px !important;
-    position: relative;
-}
-
-#searchBox {
-    box-sizing: border-box;
-    border-color: #BCBCBC #D6D6D6 #D6D6D6;
-    border-style: solid;
-    border-width: 1px;
-    color: #333333;
-    display: inline-block;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    height: 28px;
-    padding-left: 6px !important;
-    padding-right: 24px !important;
-    vertical-align: top;
-    width: 100px;
-}
-
-#searchBox:hover, #searchBox:focus {
-    border-color: #ACACAC #C6C6C6 #C6C6C6;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
-}
-
-#searchListButton {
-    background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent !important;
-    height: 0;
-    margin: 0;
-    padding: 16px 0 0 19px !important;
-    position: absolute;
-    right: 12px !important;
-    top: 14px !important;
-    width: 0;
-}
 
 #mal_cs_listinfo {
-    height:46px !important;;
+    top:60px;
+    height:90px!important;
     z-index: 7;
     background-position:top left;
 }
 
-#mal_cs_listinfo{
-  top:60px;
-}
 #mal_cs_links {
-    height:92px !important;
-    top:106px;
+    height:180px !important;
+    top:150px;
     z-index: 8;
     background-position:top left;
 }
 
 #mal_cs_otherlinks > div:nth-child(1){display:none;}
 #mal_cs_otherlinks {
-    height:69px!important;
-    top: 198px;
+    height:135px !important;
+    top: 330px;
     z-index: 9;
-    background-position:top left;
-}
-
-#mal_cs_powered {
-    background-image: url("http://fs1.directupload.net/images/150415/ucrei8hy.png");
-    position: fixed !important;
-    left: 106px !important;
     background-position:top left;
 }
 

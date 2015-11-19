@@ -1,128 +1,63 @@
-@media only screen and (min-width:1200px) {
-  #list_surround {
-    width: 63.333333%;
-    box-sizing: border-box;
-  }
-  :hover+.hide {
-    opacity:1;
-  }
+@media only screen and (min-width:1200px) { 
+    #list_surround {
+        width: 63.333333%;
+        box-sizing: border-box;
+    }
+    :hover+.hide { opacity: 1 }
 }
-
-@media only screen and (min-width:640px) and (max-width:1200px) {
-  #list_surround {
-    width: 83.3333%;
-  }
+@media only screen and (min-width:640px) and (max-width:1200px) { 
+    #list_surround { width: 83.3333% }
 }
-
-@media only screen and (min-width:1692px) {
-  #list_surround {
-    width: 67em;
-    box-sizing: border-box;
-  }
+@media only screen and (min-width:1692px) { 
+    #list_surround {
+        width: 67em;
+        box-sizing: border-box;
+    }
 }
-
-[class^=header]+table {
-  background-color: #bbdefb;
+#mal_control_strip a {
+    color: rgba(0, 0, 0, 0.87)!important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
 }
-
-.hide+table:hover {
-  background-color: #E3F2FD;
-}
-
-table+table+table:hover {
-  background-color: #E3F2FD;
-}
-
-a {
-  color: #2196F3;
-}
-
-#mal_control_strip {
-  background: #BBDEFB url('')!important;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
-  box-sizing: border-box;
-  position: fixed;
-  top: 0px;
-}
-
-#mal_control_strip a,
-strong {
-  color: rgba(0, 0, 0, 0.87)!important;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-table+table {
-  padding: 12px 12px 12px 24px;
-  border-left: 1px solid #E5E5E5;
-  border-top: 1px solid #E5E5E5;
-  border-right: 1px solid #E5E5E5;
-}
-
-table+table+table {
-  border-bottom: 1px solid #E5E5E5;
-}
-
+table+table { padding: 12px 12px 12px 24px }
 :root {
-  background-color: #EEE;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.87);
-  line-height: 1.429;
-  font-weight: 400;
-  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-origin: 500px;
-  background-position: right 35% center;
+    line-height: 1.429;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Trebuchet MS";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-#list_surround table:last-of-type {
-  border-bottom: 1px solid #E5E5E5;
-}
-
 #list_surround {
-  margin-top: 60px;
-  margin-left: 8.3333333%;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 0px;
-  background-color: #FFF;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 60px;
+    margin-left: 8.3333333%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 2px 0 rgba(0, 0, 0, 0.12);
 }
-.hide{
-  opacity:0;
-  display: block !important;
-    background-color: #2196F3 !important;
+.hide {
+    opacity: 0;
+    display: block !important;
     background-position: 50% 50% !important;
     background-repeat: no-repeat !important;
     height: 200px;
     width: 200px;
-    border-radius:100px;
+    border-radius: 100px;
     left: 63%;
     position: fixed;
     top: 15%;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16), 0px 0px 25px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 25px 0 rgba(0, 0, 0, 0.12);
 }
-.hide+table {
-  padding: 12px 12px 12px 24px;
-  border-left: 1px solid #E5E5E5;
-  border-bottom: 1px solid #E5E5E5;
-  border-right: 1px solid #E5E5E5;
-}
-
+.hide+table { padding: 12px 12px 12px 24px }
 .header_title {
-  color: rgba(0, 0, 0, 0.54);
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 34px;
-  line-height: 40px;
-  margin: 0.67em 0px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    line-height: 40px;
+    margin: 0.67em 0;
 }
-
-.table_headerLink {
-  color: rgba(0, 0, 0, 0.54);
-}
+.table_headerLink { color: rgba(0, 0, 0, 0.54) }
 /* Deletions */
-
 #list_surround>table:first-of-type,
 #list_surround br:nth-of-type(1),
 #list_surround br:nth-of-type(2),
@@ -132,11 +67,6 @@ table+table+table {
 .td1:first-child,
 .td2:first-child,
 .table_header:first-of-type,
-div[style*=float] {
-  display: none;
-}
+div[style*=float] { display: none }
 /* Anime Image Fixes */
-
-#more30991 {
-  background-image: url('http://cdn.myanimelist.net/images/anime/7/76826.jpg') !important;
-}
+#more30991 { background-image: url('http://cdn.myanimelist.net/images/anime/7/76826.jpg') !important }

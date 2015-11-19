@@ -1,0 +1,50 @@
+/*      Color Table      */
+/* Primary      :#009688;*/
+/* DarkPrimary  :#00796B;*/
+/* LightPrimary :#B2DFDB;*/
+/* Accent       :#03A9F4;*/
+/* Text/Icons   :#FFFFFF;*/
+/* PrimaryText  :#212121;*/
+/* SecondaryText:#727272;*/
+/* Divider      :#B6B6B6;*/
+
+/*      Primary Color Targets      */
+:root,
+#mal_control_strip,
+[class^="header"] + table { background-color: #009688 !important }
+a,
+.header_title { color: #009688 }
+/*              Accent             */
+.hide+table:hover,
+table+table+table:hover,
+#mal_cs_listinfo a:hover,
+#mal_cs_links a:hover,
+#mal_cs_otherlinks a:hover
+{ background-color: #B2DFD8 }
+
+/*              Text               */
+:root,
+#mal_control_strip a,
+#mal_cs_listinfo > div:nth-child(1) > strong:nth-child(1) > a:nth-child(1) > strong:nth-child(1),
+strong {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+    color: rgba(0,0,0,0.87);
+}
+/*             Divider             */
+.hide+table,
+table+table {
+    border-left: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.hide+table,
+table+table+table {
+    border-top: 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+#list_surround table:last-of-type { border-bottom: 1px solid #E5E5E5 }
+/*           Text/Icons            */
+#list_surround { background-color: #FFFFFF }
+.table_headerLink,
+strong { color: #FFFFFF }
