@@ -134,7 +134,6 @@
 #mal_control_strip>tbody tr, #mal_control_strip>tbody tr:before, #mal_control_strip>tbody tr:after {
     height:6px;
     width:50px;
-    background-color:gray;
     content:'';
     position:absolute;
     left:100px;

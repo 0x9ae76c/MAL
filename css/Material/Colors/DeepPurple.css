@@ -7,6 +7,7 @@
 /*      Primary Color Targets      */
 :root,
 #mal_control_strip,
+#mal_control_strip>tbody tr, #mal_control_strip>tbody tr:before, #mal_control_strip>tbody tr:after,
 [class^="header"] + table { background-color: #673AB7 !important }
 a,
 .header_title
