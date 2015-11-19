@@ -7,7 +7,6 @@
 /*      Primary Color Targets      */
 :root,
 #mal_control_strip,
-#mal_control_strip>tbody tr, #mal_control_strip>tbody tr:before, #mal_control_strip>tbody tr:after,
 [class^="header"] + table { background-color: #03A9F4 !important }
 a,
 .header_title
@@ -18,7 +17,8 @@ a,
 table+table+table:hover,
 #mal_cs_listinfo a:hover,
 #mal_cs_links a:hover,
-#mal_cs_otherlinks a:hover
+#mal_cs_otherlinks a:hover,
+#mal_control_strip>tbody tr, #mal_control_strip>tbody tr:before, #mal_control_strip>tbody tr:after
 { background-color: #B3E5FC }
 
 /*              Text               */
