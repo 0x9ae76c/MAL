@@ -137,6 +137,7 @@
   position: absolute;
   left: 100px;
   top: 25px;
+  border-radius: 150px 150px;
 }
 
 #mal_control_strip>tbody tr:before {
