@@ -8,7 +8,10 @@
 :root,
 #mal_control_strip,
 #mal_control_strip>tbody tr, #mal_control_strip>tbody tr:before, #mal_control_strip>tbody tr:after,
-[class^="header"] + table { background-color: #03A9F4 }
+.header_cw + table,
+.header_completed + table,
+.header_onhold + table,
+.header_ptw + table{ background-color: #03A9F4 }
 a,
 .header_title
 { color: #03A9F4 }

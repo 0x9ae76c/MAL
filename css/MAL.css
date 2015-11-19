@@ -1,14 +1,14 @@
-@media only screen and (min-width:1200px) { 
+@media only screen and (min-width: 1200px) { 
     #list_surround {
         width: 63.333333%;
         box-sizing: border-box;
     }
     :hover+.hide { opacity: 1 }
 }
-@media only screen and (min-width:640px) and (max-width:1200px) { 
+@media only screen and (min-width: 640px) and (max-width: 1200px) { 
     #list_surround { width: 83.3333% }
 }
-@media only screen and (min-width:1692px) { 
+@media only screen and (min-width: 1692px) { 
     #list_surround {
         width: 67em;
         box-sizing: border-box;
@@ -67,6 +67,7 @@ table+table { padding: 12px 12px 12px 24px }
 .td1:first-child,
 .td2:first-child,
 .table_header:first-of-type,
-div[style*=float] { display: none }
+small
+{ display: none }
 /* Anime Image Fixes */
-#more30991 { background-image: url('http://cdn.myanimelist.net/images/anime/7/76826.jpg') !important }
+#more30991 { background-image: url('http: //cdn.myanimelist.net/images/anime/7/76826.jpg') !important }
