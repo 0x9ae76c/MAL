@@ -2,7 +2,7 @@
 
 Navigate to [Custom Styles](http://myanimelist.net/editprofile.php?go=stylepref&do=cssadv) on your anime list profile.
 
-In the `Advanced CSS File` field include the three css and a Color found in css/Material/Colors
+In the `Advanced CSS File` field include the three base css and a `Color` found in css/Material/Colors
 
 ```css
 /* Base */
