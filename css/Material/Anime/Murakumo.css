@@ -15,10 +15,10 @@
 .header_completed + table,
 .header_onhold + table,
 .header_ptw + table
- { background-color: #F44336 }
+ { background-color: #FD4155 }
 a,
 .header_title
-{ color: #F44336 }
+{ color: #FD4155 }
 
 /*           LightPrimary          */
 .hide+table:hover,
