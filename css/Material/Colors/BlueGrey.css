@@ -1,0 +1,60 @@
+/*      Color Table      */
+/* Primary      :#607D8B;*/
+/* DarkPrimary  :#512DA8;*/
+/* LightPrimary :#CFD8DC;*/
+/* Accent       :#03A9F4;*/
+
+/*      Primary Color Targets      */
+:root,
+#mal_control_strip,
+#mal_control_strip>tbody tr, #mal_control_strip>tbody tr:before, #mal_control_strip>tbody tr:after,
+.header_cw + table,
+.header_completed + table,
+.header_onhold + table,
+.header_ptw + table { background-color: #607D8B }
+a,
+.header_title
+{ color: #607D8B }
+
+/*           LightPrimary          */
+.hide+table:hover,
+table+table+table:hover,
+#mal_cs_listinfo a:hover,
+#mal_cs_links a:hover,
+#mal_cs_otherlinks a:hover
+{ background-color: #CFD8DC }
+
+/*              Text               */
+:root,
+#mal_control_strip a,
+#mal_cs_listinfo > div:nth-child(1) > strong:nth-child(1) > a:nth-child(1) > strong:nth-child(1),
+strong {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+    color: rgba(0,0,0,0.87);
+}
+
+/*             Divider             */
+.hide+table,
+table+table {
+    border-left: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+
+.hide+table,
+table+table+table {
+    border-top: 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#list_surround table:last-of-type
+{ border-bottom: 1px solid #E5E5E5 }
+
+
+/*           Text/Icons            */
+#list_surround
+{ background-color: #FFFFFF }
+
+.table_headerLink,
+strong
+{ color: #FFFFFF }
